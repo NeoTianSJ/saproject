@@ -475,7 +475,7 @@ friend_list.to_csv\
 ('friend_list.csv', header = True, index= True, sep='\t', encoding='utf-8')
 
 master_user_name.to_csv\
-('user_name.csv', header = True, index= True, sep='\t', encoding='utf-8')
+('user_name_clus_map_viz.csv', header = True, index= True, sep='\t', encoding='utf-8')
 
 
 

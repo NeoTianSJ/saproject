@@ -1,6 +1,6 @@
 import os,sys
 #sys.path.insert(0, 'D:/Workspace-Github/saproject/code/99_bot/jiakbot')
-sys.path.insert(0, '/Users/junquantham/Development/saproject/code/bot/jiakbot')
+sys.path.insert(0, './Development/saproject/code/bot/jiakbot')
 
 
 from telegram.ext import Updater, CommandHandler,MessageHandler, Filters # telegram wrapper
@@ -9,10 +9,7 @@ from jiakbot import JiakBot
 
 jiakbot = JiakBot
 jiak_sessions = {}
-TOKEN = '418463610:AAHh8CEVl4hu4J6D6_BnxhqT39TlPVfadmM'
-
-# specify uid mappings if any
-uid = 81916899
+TOKEN = '' # enter your token here
 
 # functions
 def start(bot, update):

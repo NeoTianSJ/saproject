@@ -16,10 +16,8 @@ logger.setLevel(logging.WARNING)
 class JiakBot:
 
     # Read in the config in the auth files
-    # config_file_path = 'D:/Workspace-Github/saproject/code/99_bot/jiakbot/config_app/app_config.ini'
-    # config_key = 'yangcheng'
 
-    config_file_path = '/Users/junquantham/Development/saproject/code/bot/jiakbot/config_app/app_config.ini'
+    config_file_path = './Development/saproject/code/bot/jiakbot/config_app/app_config.ini'
     config_key = 'file_path'
 
     config = configparser.ConfigParser()

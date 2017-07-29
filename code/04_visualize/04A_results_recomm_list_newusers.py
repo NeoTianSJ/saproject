@@ -9,7 +9,7 @@ Created on Mon Jul 24 21:46:35 2017
 
 import pandas as pd
 
-user_name_df = pd.read_csv('user_name.csv', sep = '\t').drop('Unnamed: 0', axis = 1)
+user_name_df = pd.read_csv('user_name_clus_map_viz.csv', sep = '\t').drop('Unnamed: 0', axis = 1)
 recommendation_df = pd.read_csv('recom_for_new_user.csv', sep = '\t').drop('Unnamed: 0', axis = 1)
 friend_list_df = pd.read_csv('friend_list.csv', sep = '\t').drop('Unnamed: 0', axis = 1)
 
